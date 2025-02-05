@@ -26,7 +26,7 @@ if totalamount < Amount:
 
 elif Primebloodtotal > Amount:
     print("OUTPUT", "Main Level:", Primebloodtotal - Amount)
-    print("OUTPUT", "Backup Level:", Secondaryblood)
+    print("OUTPUT", "Backup Level:", Secondarybloodtotal)
 
 elif Primebloodtotal < Amount:
     print("OUTPUT", "Warning: Main reserve depleted")
@@ -38,6 +38,7 @@ else:
     print("OUTPUT", "Main Level: 0")
     print("OUTPUT", "Warning: Backup reserve depleted")
     print("OUTPUT", "Backup Level: 0")
+
 
 
 
